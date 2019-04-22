@@ -1,0 +1,15 @@
+1. Change the Command line argument in all the shell file to match the location of dataset
+
+	eg:       #!/bin/bash
+                  python3 project.py 'SVM' '/home/CAP5627-3/data/Project1/Dataset2'
+		  Change the last value of command line argument, make sure that for SVM1, RF1, you give the path of dataset1(till dataset folder
+) and vice versa
+
+		
+2. Run each induvidual shell files for respective classifications,
+		SVM1.sh -> SVM on dataset1
+		SVM2.sh -> SVM on dataset2
+		RF1.sh -> RF on dataset1
+		RF2.sh -> RF on dataset2
+
+3. For each shell file, the data is processed seperately, so it takes a while in producing the output.
